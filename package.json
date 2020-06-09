@@ -1,11 +1,8 @@
 {
   "name": "sra",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Calculate rolling average of an array.",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
   "files": [
     "index.js"
   ],
@@ -19,7 +16,4 @@
     "url": "https://github.com/JustSamuel/sra/issues"
   },
   "homepage": "https://github.com/JustSamuel/sra#readme",
-  "devDependencies": {
-    "mocha": "^7.2.0"
-  }
 }
