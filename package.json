@@ -6,6 +6,9 @@
   "scripts": {
     "test": "mocha"
   },
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JustSamuel/sra.git"
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/JustSamuel/sra/issues"
   },
-  "homepage": "https://github.com/JustSamuel/sra#readme"
+  "homepage": "https://github.com/JustSamuel/sra#readme",
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  }
 }
