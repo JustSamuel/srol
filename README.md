@@ -1,2 +1,2 @@
-# sra
-Simple rolling average in nodejs.
+# srol
+Maintaining a *s*imple *rol*ling average in js.

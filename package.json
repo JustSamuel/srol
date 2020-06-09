@@ -1,7 +1,7 @@
 {
-  "name": "sra",
+  "name": "srol",
   "version": "1.0.0",
-  "description": "Calculate rolling average of an array.",
+  "description": "Class maintaining a rolling average.",
   "main": "index.js",
   "files": [
     "index.js"
