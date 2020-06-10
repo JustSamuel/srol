@@ -15,6 +15,12 @@
   },
   "author": "Samuel",
   "license": "GPL-3.0-or-later",
+  "keywords": [
+    "average",
+    "rolling average",
+    "array average",
+    "moving average"
+  ],
   "bugs": {
     "url": "https://github.com/JustSamuel/sra/issues"
   },
