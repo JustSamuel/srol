@@ -9,6 +9,7 @@
  * @constructor
  */
 function RollingAverage(length) {
+    if (length <= 0 || arguments.length === 0) throw TypeError("Expected non negative length.");
     this.sum = 0;
     this.length = length;
     this.filled = false;
@@ -65,11 +66,11 @@ RollingAverage.prototype._addNumber = function (a) {
  * @returns {number} - The average of the array.
  */
 RollingAverage.prototype.average = function () {
-    return this.sum / (this.filled ? this.length : this.pointer);
+    return this.sum / (this.filled || this.pointer === 0 ? this.length : this.pointer);
 };
 
 /**
  * Exposes the class.
- * @type {RollingAverage}
+ * @type {Function}
  */
 module.exports = RollingAverage;

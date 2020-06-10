@@ -1,7 +1,8 @@
-# srol [![NPM version](https://img.shields.io/npm/v/srol.svg?style=flat)](https://www.npmjs.com/package/srol)
-Maintaining a simple rolling average in js using FIFO.
+# srol [![NPM version](https://img.shields.io/npm/v/srol.svg?style=flat)](https://www.npmjs.com/package/srol) [![NPM total downloads](https://img.shields.io/npm/dt/srol.svg?style=flat)](https://npmjs.org/package/srol)
+Maintaining a simple dynamic rolling average.
 
-The rolling average is the unweighted mean of the previous _i_ numbers.
+The rolling average is the unweighted mean of the previous _i_ numbers where _i_ is the length 
+or argument of the rolling average.
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
@@ -57,8 +58,11 @@ The first number, 5, is replaced by a 7 and the average becomes 6.
 6
 ```
 
-## TODO
-Add a test file / example.
+## Running Tests
+Test cover the basic function and requirements of the rolling average.
+```sh
+$ npm install && npm test
+```
 
 ## Contributing
-Pull requests and are always welcome.
+Pull requests are always welcome.
