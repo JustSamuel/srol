@@ -32,9 +32,9 @@ rollingAverage.add(n);
 add will throw a TypeError if n is not a number or an array containing not a number.
 
 ### average
-Returns the average of the last `rollingAverage.length` numbers.
+Getter that returns the average of the last `rollingAverage.length` numbers.
  ```js
- rollingAverage.average();
+ rollingAverage.average;
  ```
 
 ## Example
@@ -54,7 +54,7 @@ rollingAverage.add(7);
 ```
 The first number, 5, is replaced by a 7 and the average becomes 6.
 ```sh
-> rollingAverage.average();
+> rollingAverage.average;
 6
 ```
 
