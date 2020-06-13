@@ -1,6 +1,6 @@
 {
   "name": "srol",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Class maintaining a rolling average.",
   "main": "index.js",
   "files": [

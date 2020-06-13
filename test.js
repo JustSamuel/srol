@@ -25,7 +25,7 @@ describe('Srol', function () {
 
   it('should start off with an average of 0', function () {
     const rollingAverage = new Srol(1)
-    assert(rollingAverage.average() === 0)
+    assert(rollingAverage.average === 0)
   })
 
   it('should only accept numbers', function () {
@@ -43,7 +43,7 @@ describe('Srol', function () {
     const rollingAverage = new Srol(3)
     rollingAverage.add([1.5, 4.5])
     assert(!rollingAverage.filled)
-    assert(rollingAverage.average() === 3)
+    assert(rollingAverage.average === 3)
   })
 
   // [1.5, 4.5, 6] has an average of 4.
@@ -52,7 +52,7 @@ describe('Srol', function () {
     rollingAverage.add([1.5, 4.5])
     rollingAverage.add(6)
     assert(rollingAverage.filled)
-    assert(rollingAverage.average() === 4)
+    assert(rollingAverage.average === 4)
   })
 
   // size 3: [1.5, 4.5, 6].add(4.5) -> [4.5, 4.5, 6] has an average of 4.5
@@ -61,6 +61,6 @@ describe('Srol', function () {
     rollingAverage.add([1.5, 4.5, 6])
     rollingAverage.add(4.5)
     assert(rollingAverage.filled)
-    assert(rollingAverage.average() === 5)
+    assert(rollingAverage.average === 5)
   })
 })
