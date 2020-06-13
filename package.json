@@ -6,6 +6,18 @@
   "files": [
     "index.js"
   ],
+  "standard": {
+    "globals": [
+      "describe",
+      "context",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "it",
+      "expect"
+    ]
+  },
   "scripts": {
     "test": "mocha"
   },
