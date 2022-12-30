@@ -38,6 +38,6 @@
   },
   "homepage": "https://github.com/JustSamuel/sra#readme",
   "devDependencies": {
-    "mocha": "^7.2.0"
+    "mocha": "^10.2.0"
   }
 }
